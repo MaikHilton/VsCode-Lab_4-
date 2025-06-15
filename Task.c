@@ -98,7 +98,7 @@ int main() {
     int a2 = 4, b2 = 7, c2 = 3;
     int result2 = a2++ + --b2 * c2-- - ++a2 + b2-- + c2;
 
-    printf("\n[Завдання 2] Аналіз складного виразу:\n");
+    printf("\nАналіз складного виразу:\n");
     printf("a = %d\nb = %d\nc = %d\nresult = %d\n", a2, b2, c2, result2);
 
     return 0;
